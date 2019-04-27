@@ -1,0 +1,3104 @@
+trainingDatas.size() : 75
+verificationDatas.size() : 75
+used random seed : 1556189519516
+NNの初期状態.
+******************
+Layer: 0
+******************
+NumOfNeurons:4
+  # Neuron 0
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.4058362844981799
+      ¥1:weight:-0.27882292452958213
+      ¥2:weight:0.20152994279731828
+      ¥3:weight:0.22532344965463225
+      ¥4:weight:0.27059220508868587
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.7382683711086171
+      ¥1:weight:-0.5955413767699567
+      ¥2:weight:-0.28689867190313745
+      ¥3:weight:0.9184295447995037
+      ¥4:weight:-0.3928566048740665
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.41208743244718093
+      ¥1:weight:0.8627505542929642
+      ¥2:weight:-0.436318852863231
+      ¥3:weight:0.40419565604994545
+      ¥4:weight:-0.6145291148704173
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.5012118611271331
+      ¥1:weight:0.9611243921259344
+      ¥2:weight:0.47554509943411427
+      ¥3:weight:0.2225138314516517
+      ¥4:weight:-0.8041112179926503
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.1411726071660645
+      ¥1:weight:0.12446978734390057
+      ¥2:weight:0.03867863885845091
+      ¥3:weight:0.021303717693209046
+      ¥4:weight:0.7386938504238819
+
+
+******************
+Layer: 1
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:5
+      ¥0:weight:0.4058362844981799
+      ¥1:weight:-0.7382683711086171
+      ¥2:weight:0.41208743244718093
+      ¥3:weight:-0.5012118611271331
+      ¥4:weight:0.1411726071660645
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.7829762169330352
+      ¥1:weight:-0.36746496005574913
+      ¥2:weight:-0.9040112229816737
+      ¥3:weight:-0.5785346460287445
+      ¥4:weight:-0.6679548981391695
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:5
+      ¥0:weight:-0.27882292452958213
+      ¥1:weight:-0.5955413767699567
+      ¥2:weight:0.8627505542929642
+      ¥3:weight:0.9611243921259344
+      ¥4:weight:0.12446978734390057
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.4497298490913352
+      ¥1:weight:-0.3466212718495284
+      ¥2:weight:0.9053728750687611
+      ¥3:weight:0.16325668017034622
+      ¥4:weight:-0.36094466868571085
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:5
+      ¥0:weight:0.20152994279731828
+      ¥1:weight:-0.28689867190313745
+      ¥2:weight:-0.436318852863231
+      ¥3:weight:0.47554509943411427
+      ¥4:weight:0.03867863885845091
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.8938940131898208
+      ¥1:weight:0.4563002478616587
+      ¥2:weight:0.3912499097372334
+      ¥3:weight:0.8152128005393187
+      ¥4:weight:0.9005131792682907
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:5
+      ¥0:weight:0.22532344965463225
+      ¥1:weight:0.9184295447995037
+      ¥2:weight:0.40419565604994545
+      ¥3:weight:0.2225138314516517
+      ¥4:weight:0.021303717693209046
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.09367713998765259
+      ¥1:weight:0.15337752486817502
+      ¥2:weight:0.24468209624261317
+      ¥3:weight:0.16842963311643744
+      ¥4:weight:-0.5846934640700315
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:5
+      ¥0:weight:0.27059220508868587
+      ¥1:weight:-0.3928566048740665
+      ¥2:weight:-0.6145291148704173
+      ¥3:weight:-0.8041112179926503
+      ¥4:weight:0.7386938504238819
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.537097379844969
+      ¥1:weight:-0.9271923520447047
+      ¥2:weight:0.08132803885722917
+      ¥3:weight:0.23720592708512367
+      ¥4:weight:0.3848666829320695
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.2470332202152723
+      ¥1:weight:-0.13833738471125334
+      ¥2:weight:-0.22387479638101693
+      ¥3:weight:0.08650352166321718
+      ¥4:weight:0.9913730268853734
+
+
+******************
+Layer: 2
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.7829762169330352
+      ¥1:weight:0.4497298490913352
+      ¥2:weight:-0.8938940131898208
+      ¥3:weight:-0.09367713998765259
+      ¥4:weight:0.537097379844969
+      ¥5:weight:-0.2470332202152723
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.13271602878915967
+      ¥1:weight:-0.039032948595218886
+      ¥2:weight:-0.5420316455857465
+      ¥3:weight:0.5380202530308393
+      ¥4:weight:-0.35383359395827685
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.36746496005574913
+      ¥1:weight:-0.3466212718495284
+      ¥2:weight:0.4563002478616587
+      ¥3:weight:0.15337752486817502
+      ¥4:weight:-0.9271923520447047
+      ¥5:weight:-0.13833738471125334
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.36855097513274326
+      ¥1:weight:0.23245427877249003
+      ¥2:weight:-0.3538697812548064
+      ¥3:weight:-0.7160243178629626
+      ¥4:weight:-0.20197526331040405
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.9040112229816737
+      ¥1:weight:0.9053728750687611
+      ¥2:weight:0.3912499097372334
+      ¥3:weight:0.24468209624261317
+      ¥4:weight:0.08132803885722917
+      ¥5:weight:-0.22387479638101693
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.3697856236672252
+      ¥1:weight:0.9322984755682487
+      ¥2:weight:0.15173582053969126
+      ¥3:weight:0.6323425104198913
+      ¥4:weight:0.6665276451904867
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.5785346460287445
+      ¥1:weight:0.16325668017034622
+      ¥2:weight:0.8152128005393187
+      ¥3:weight:0.16842963311643744
+      ¥4:weight:0.23720592708512367
+      ¥5:weight:0.08650352166321718
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.7022435839534019
+      ¥1:weight:-0.021075622517764736
+      ¥2:weight:-0.6279630958515967
+      ¥3:weight:0.016083657621223546
+      ¥4:weight:0.8467350810561586
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.6679548981391695
+      ¥1:weight:-0.36094466868571085
+      ¥2:weight:0.9005131792682907
+      ¥3:weight:-0.5846934640700315
+      ¥4:weight:0.3848666829320695
+      ¥5:weight:0.9913730268853734
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.8336842363679627
+      ¥1:weight:0.7503068292109434
+      ¥2:weight:-0.14992859218045917
+      ¥3:weight:0.3471633843791033
+      ¥4:weight:-0.6230650580862404
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.6582960612403127
+      ¥1:weight:0.6122044631975561
+      ¥2:weight:0.770124012922044
+      ¥3:weight:0.751937855538364
+      ¥4:weight:-0.8230482759117943
+
+
+******************
+Layer: 3
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.13271602878915967
+      ¥1:weight:0.36855097513274326
+      ¥2:weight:-0.3697856236672252
+      ¥3:weight:0.7022435839534019
+      ¥4:weight:-0.8336842363679627
+      ¥5:weight:-0.6582960612403127
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.34650781093871796
+      ¥1:weight:-0.14638281014158172
+      ¥2:weight:-0.786456532156194
+      ¥3:weight:0.38890511197698485
+      ¥4:weight:-0.7107683696185457
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.039032948595218886
+      ¥1:weight:0.23245427877249003
+      ¥2:weight:0.9322984755682487
+      ¥3:weight:-0.021075622517764736
+      ¥4:weight:0.7503068292109434
+      ¥5:weight:0.6122044631975561
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.06460309659081986
+      ¥1:weight:0.44239333955495264
+      ¥2:weight:-0.41221434136412005
+      ¥3:weight:-0.8728816911240957
+      ¥4:weight:0.3378364112700797
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.5420316455857465
+      ¥1:weight:-0.3538697812548064
+      ¥2:weight:0.15173582053969126
+      ¥3:weight:-0.6279630958515967
+      ¥4:weight:-0.14992859218045917
+      ¥5:weight:0.770124012922044
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.7116945503047133
+      ¥1:weight:-0.41080720824469397
+      ¥2:weight:-0.07915313586209383
+      ¥3:weight:-0.09182721539198757
+      ¥4:weight:0.8931202145603875
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.5380202530308393
+      ¥1:weight:-0.7160243178629626
+      ¥2:weight:0.6323425104198913
+      ¥3:weight:0.016083657621223546
+      ¥4:weight:0.3471633843791033
+      ¥5:weight:0.751937855538364
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.489692776932536
+      ¥1:weight:0.4396399499961344
+      ¥2:weight:0.1409171590740791
+      ¥3:weight:0.6152473537954112
+      ¥4:weight:-0.9215861904039206
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.35383359395827685
+      ¥1:weight:-0.20197526331040405
+      ¥2:weight:0.6665276451904867
+      ¥3:weight:0.8467350810561586
+      ¥4:weight:-0.6230650580862404
+      ¥5:weight:-0.8230482759117943
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.5215331437700323
+      ¥1:weight:-0.2642274355414661
+      ¥2:weight:-0.44775176500267166
+      ¥3:weight:0.10402271109610228
+      ¥4:weight:0.8308549232404822
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.3750535677384925
+      ¥1:weight:-0.7385462247838452
+      ¥2:weight:0.5652788513443432
+      ¥3:weight:-0.929076948066733
+      ¥4:weight:-0.7821694480827819
+
+
+******************
+Layer: 4
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.34650781093871796
+      ¥1:weight:-0.06460309659081986
+      ¥2:weight:0.7116945503047133
+      ¥3:weight:0.489692776932536
+      ¥4:weight:-0.5215331437700323
+      ¥5:weight:-0.3750535677384925
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.10144574564246989
+      ¥1:weight:0.0045498905169737425
+      ¥2:weight:0.6341563456825254
+      ¥3:weight:0.38252539832382926
+      ¥4:weight:-0.7543956393028279
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.14638281014158172
+      ¥1:weight:0.44239333955495264
+      ¥2:weight:-0.41080720824469397
+      ¥3:weight:0.4396399499961344
+      ¥4:weight:-0.2642274355414661
+      ¥5:weight:-0.7385462247838452
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.11553316864012153
+      ¥1:weight:-0.10131774775572311
+      ¥2:weight:0.8591184797306579
+      ¥3:weight:0.03929635618019489
+      ¥4:weight:-0.7677645919104904
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.786456532156194
+      ¥1:weight:-0.41221434136412005
+      ¥2:weight:-0.07915313586209383
+      ¥3:weight:0.1409171590740791
+      ¥4:weight:-0.44775176500267166
+      ¥5:weight:0.5652788513443432
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.7227994102924278
+      ¥1:weight:-0.2664960409922399
+      ¥2:weight:-0.8044921343382688
+      ¥3:weight:0.7468231958121756
+      ¥4:weight:-0.07371979288705877
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.38890511197698485
+      ¥1:weight:-0.8728816911240957
+      ¥2:weight:-0.09182721539198757
+      ¥3:weight:0.6152473537954112
+      ¥4:weight:0.10402271109610228
+      ¥5:weight:-0.929076948066733
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.8087007712391256
+      ¥1:weight:-0.9096571391632523
+      ¥2:weight:0.8145590120791477
+      ¥3:weight:-0.7605287969282206
+      ¥4:weight:0.26899104847680755
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.7107683696185457
+      ¥1:weight:0.3378364112700797
+      ¥2:weight:0.8931202145603875
+      ¥3:weight:-0.9215861904039206
+      ¥4:weight:0.8308549232404822
+      ¥5:weight:-0.7821694480827819
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.24737934392488814
+      ¥1:weight:0.6050432956536762
+      ¥2:weight:-0.931276586767939
+      ¥3:weight:-0.8298257130693816
+      ¥4:weight:0.625614717385773
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.46261490772457303
+      ¥1:weight:0.40690327085587175
+      ¥2:weight:0.4413560158543044
+      ¥3:weight:0.16836896451012373
+      ¥4:weight:0.15153150614580413
+
+
+******************
+Layer: 5
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.10144574564246989
+      ¥1:weight:0.11553316864012153
+      ¥2:weight:-0.7227994102924278
+      ¥3:weight:0.8087007712391256
+      ¥4:weight:-0.24737934392488814
+      ¥5:weight:-0.46261490772457303
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.36728001955635503
+      ¥1:weight:-0.26387320830743577
+      ¥2:weight:0.2779015532132725
+      ¥3:weight:-0.013302440303659568
+      ¥4:weight:0.17199744458668098
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.0045498905169737425
+      ¥1:weight:-0.10131774775572311
+      ¥2:weight:-0.2664960409922399
+      ¥3:weight:-0.9096571391632523
+      ¥4:weight:0.6050432956536762
+      ¥5:weight:0.40690327085587175
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.8597814441245394
+      ¥1:weight:-0.010174245818297067
+      ¥2:weight:0.8528830646878668
+      ¥3:weight:0.06164031406277781
+      ¥4:weight:-0.3782732102021493
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.6341563456825254
+      ¥1:weight:0.8591184797306579
+      ¥2:weight:-0.8044921343382688
+      ¥3:weight:0.8145590120791477
+      ¥4:weight:-0.931276586767939
+      ¥5:weight:0.4413560158543044
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.2133918771962282
+      ¥1:weight:0.03899796025380364
+      ¥2:weight:0.2578579488541287
+      ¥3:weight:0.608542532207673
+      ¥4:weight:-0.9851377681842122
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.38252539832382926
+      ¥1:weight:0.03929635618019489
+      ¥2:weight:0.7468231958121756
+      ¥3:weight:-0.7605287969282206
+      ¥4:weight:-0.8298257130693816
+      ¥5:weight:0.16836896451012373
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.10529915340940654
+      ¥1:weight:0.7359665121576509
+      ¥2:weight:-0.3834296006123472
+      ¥3:weight:-0.6485622950002748
+      ¥4:weight:0.3909065772857554
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.7543956393028279
+      ¥1:weight:-0.7677645919104904
+      ¥2:weight:-0.07371979288705877
+      ¥3:weight:0.26899104847680755
+      ¥4:weight:0.625614717385773
+      ¥5:weight:0.15153150614580413
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.45054424560739037
+      ¥1:weight:0.20415495038975418
+      ¥2:weight:0.3426757870353202
+      ¥3:weight:0.40719337567424596
+      ¥4:weight:-0.319377642293178
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.09008973420263766
+      ¥1:weight:-0.6632631168273871
+      ¥2:weight:0.276703437354641
+      ¥3:weight:-0.4043520673253249
+      ¥4:weight:-0.9361316826968944
+
+
+******************
+Layer: 6
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.36728001955635503
+      ¥1:weight:0.8597814441245394
+      ¥2:weight:0.2133918771962282
+      ¥3:weight:0.10529915340940654
+      ¥4:weight:0.45054424560739037
+      ¥5:weight:0.09008973420263766
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.9005690813708416
+      ¥1:weight:-0.5294649703940469
+      ¥2:weight:-0.9578044856205716
+      ¥3:weight:0.49789030545834645
+      ¥4:weight:0.19614077736004443
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.26387320830743577
+      ¥1:weight:-0.010174245818297067
+      ¥2:weight:0.03899796025380364
+      ¥3:weight:0.7359665121576509
+      ¥4:weight:0.20415495038975418
+      ¥5:weight:-0.6632631168273871
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.45953905548312135
+      ¥1:weight:-0.38658785022464603
+      ¥2:weight:-0.23637124230891637
+      ¥3:weight:0.37451440223546006
+      ¥4:weight:0.825453677980619
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.2779015532132725
+      ¥1:weight:0.8528830646878668
+      ¥2:weight:0.2578579488541287
+      ¥3:weight:-0.3834296006123472
+      ¥4:weight:0.3426757870353202
+      ¥5:weight:0.276703437354641
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.3125717320706437
+      ¥1:weight:-0.5425938765029915
+      ¥2:weight:-0.8377550409395932
+      ¥3:weight:0.3791027947515041
+      ¥4:weight:0.12449471173222526
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.013302440303659568
+      ¥1:weight:0.06164031406277781
+      ¥2:weight:0.608542532207673
+      ¥3:weight:-0.6485622950002748
+      ¥4:weight:0.40719337567424596
+      ¥5:weight:-0.4043520673253249
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.1653020528096193
+      ¥1:weight:-0.36892553901351166
+      ¥2:weight:0.8305660777719521
+      ¥3:weight:0.40568129600586067
+      ¥4:weight:0.6886870077922216
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.17199744458668098
+      ¥1:weight:-0.3782732102021493
+      ¥2:weight:-0.9851377681842122
+      ¥3:weight:0.3909065772857554
+      ¥4:weight:-0.319377642293178
+      ¥5:weight:-0.9361316826968944
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.8542280132045836
+      ¥1:weight:0.15955765965364332
+      ¥2:weight:0.3927446506598593
+      ¥3:weight:0.4602733024065475
+      ¥4:weight:-0.5034238613986252
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.5156356598134643
+      ¥1:weight:0.9838460235205574
+      ¥2:weight:0.062013067286945
+      ¥3:weight:0.8255364572277943
+      ¥4:weight:0.04450738660192288
+
+
+******************
+Layer: 7
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.9005690813708416
+      ¥1:weight:0.45953905548312135
+      ¥2:weight:-0.3125717320706437
+      ¥3:weight:-0.1653020528096193
+      ¥4:weight:0.8542280132045836
+      ¥5:weight:0.5156356598134643
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.33177355054361346
+      ¥1:weight:0.4931105100458161
+      ¥2:weight:-0.23627106429021538
+      ¥3:weight:0.5010458707546045
+      ¥4:weight:-0.796792785295183
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.5294649703940469
+      ¥1:weight:-0.38658785022464603
+      ¥2:weight:-0.5425938765029915
+      ¥3:weight:-0.36892553901351166
+      ¥4:weight:0.15955765965364332
+      ¥5:weight:0.9838460235205574
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.7072653002419454
+      ¥1:weight:-0.9238658786484297
+      ¥2:weight:-0.016142708885021007
+      ¥3:weight:-0.5241744517791427
+      ¥4:weight:-0.6947155292338222
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.9578044856205716
+      ¥1:weight:-0.23637124230891637
+      ¥2:weight:-0.8377550409395932
+      ¥3:weight:0.8305660777719521
+      ¥4:weight:0.3927446506598593
+      ¥5:weight:0.062013067286945
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.0884129115377923
+      ¥1:weight:0.06599678146957
+      ¥2:weight:0.8057989180429097
+      ¥3:weight:-0.7208967586978786
+      ¥4:weight:0.12155920537234499
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.49789030545834645
+      ¥1:weight:0.37451440223546006
+      ¥2:weight:0.3791027947515041
+      ¥3:weight:0.40568129600586067
+      ¥4:weight:0.4602733024065475
+      ¥5:weight:0.8255364572277943
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.7564794250587997
+      ¥1:weight:-0.05764028668841448
+      ¥2:weight:0.9646539126680403
+      ¥3:weight:0.5876303011727179
+      ¥4:weight:0.2753847790982903
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.19614077736004443
+      ¥1:weight:0.825453677980619
+      ¥2:weight:0.12449471173222526
+      ¥3:weight:0.6886870077922216
+      ¥4:weight:-0.5034238613986252
+      ¥5:weight:0.04450738660192288
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.3741037880819258
+      ¥1:weight:-0.25322490888445204
+      ¥2:weight:0.34152142365619265
+      ¥3:weight:-0.09221830019449662
+      ¥4:weight:0.4430617535661596
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.09388873233785044
+      ¥1:weight:-0.5849892493120469
+      ¥2:weight:-0.30709050613105127
+      ¥3:weight:-0.16475816617061367
+      ¥4:weight:-0.40724525973344206
+
+
+******************
+Layer: 8
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.33177355054361346
+      ¥1:weight:0.7072653002419454
+      ¥2:weight:0.0884129115377923
+      ¥3:weight:0.7564794250587997
+      ¥4:weight:-0.3741037880819258
+      ¥5:weight:-0.09388873233785044
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.6154756932612159
+      ¥1:weight:0.05519058868368476
+      ¥2:weight:0.27607287874256736
+      ¥3:weight:-0.7386509277909699
+      ¥4:weight:0.8504614705674584
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.4931105100458161
+      ¥1:weight:-0.9238658786484297
+      ¥2:weight:0.06599678146957
+      ¥3:weight:-0.05764028668841448
+      ¥4:weight:-0.25322490888445204
+      ¥5:weight:-0.5849892493120469
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.5878596692833205
+      ¥1:weight:-0.879636096733917
+      ¥2:weight:-0.45445087493034064
+      ¥3:weight:-0.6693307411895041
+      ¥4:weight:-0.4644604082608609
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.23627106429021538
+      ¥1:weight:-0.016142708885021007
+      ¥2:weight:0.8057989180429097
+      ¥3:weight:0.9646539126680403
+      ¥4:weight:0.34152142365619265
+      ¥5:weight:-0.30709050613105127
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.8782707104136626
+      ¥1:weight:0.7331776321862838
+      ¥2:weight:-0.15554163285569622
+      ¥3:weight:-0.9793918041678397
+      ¥4:weight:0.5670582186388615
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.5010458707546045
+      ¥1:weight:-0.5241744517791427
+      ¥2:weight:-0.7208967586978786
+      ¥3:weight:0.5876303011727179
+      ¥4:weight:-0.09221830019449662
+      ¥5:weight:-0.16475816617061367
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.032869994774183064
+      ¥1:weight:-0.24227314704893
+      ¥2:weight:-0.5750891372247756
+      ¥3:weight:-0.9263982349935961
+      ¥4:weight:-0.7315380662464094
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.796792785295183
+      ¥1:weight:-0.6947155292338222
+      ¥2:weight:0.12155920537234499
+      ¥3:weight:0.2753847790982903
+      ¥4:weight:0.4430617535661596
+      ¥5:weight:-0.40724525973344206
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.8396339068358241
+      ¥1:weight:0.28973645776983303
+      ¥2:weight:-0.9769036895389814
+      ¥3:weight:0.6467483369700591
+      ¥4:weight:-0.8536714124499344
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.7475073211603432
+      ¥1:weight:-0.6653339673664657
+      ¥2:weight:0.4408552635356786
+      ¥3:weight:-0.44811225780875175
+      ¥4:weight:0.8113102217397374
+
+
+******************
+Layer: 9
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.6154756932612159
+      ¥1:weight:-0.5878596692833205
+      ¥2:weight:-0.8782707104136626
+      ¥3:weight:0.032869994774183064
+      ¥4:weight:-0.8396339068358241
+      ¥5:weight:-0.7475073211603432
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.20661278799798277
+      ¥1:weight:-0.6600647938745591
+      ¥2:weight:0.042547552594871973
+      ¥3:weight:0.19970319307424556
+      ¥4:weight:0.4603603396999225
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.05519058868368476
+      ¥1:weight:-0.879636096733917
+      ¥2:weight:0.7331776321862838
+      ¥3:weight:-0.24227314704893
+      ¥4:weight:0.28973645776983303
+      ¥5:weight:-0.6653339673664657
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.36683742612560544
+      ¥1:weight:-0.6527341884135293
+      ¥2:weight:0.8461931723856062
+      ¥3:weight:-0.051381699710110196
+      ¥4:weight:-0.5523766005254162
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.27607287874256736
+      ¥1:weight:-0.45445087493034064
+      ¥2:weight:-0.15554163285569622
+      ¥3:weight:-0.5750891372247756
+      ¥4:weight:-0.9769036895389814
+      ¥5:weight:0.4408552635356786
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.6490167812245863
+      ¥1:weight:-0.5655790926568288
+      ¥2:weight:0.21583085799832946
+      ¥3:weight:-0.9627706434590093
+      ¥4:weight:-0.8644262259756326
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.7386509277909699
+      ¥1:weight:-0.6693307411895041
+      ¥2:weight:-0.9793918041678397
+      ¥3:weight:-0.9263982349935961
+      ¥4:weight:0.6467483369700591
+      ¥5:weight:-0.44811225780875175
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.051619152459018935
+      ¥1:weight:-0.23836747975202333
+      ¥2:weight:0.6082912206217135
+      ¥3:weight:-0.6552631927292618
+      ¥4:weight:-0.9686610142213674
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.8504614705674584
+      ¥1:weight:-0.4644604082608609
+      ¥2:weight:0.5670582186388615
+      ¥3:weight:-0.7315380662464094
+      ¥4:weight:-0.8536714124499344
+      ¥5:weight:0.8113102217397374
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.589879945513758
+      ¥1:weight:0.37560603245063295
+      ¥2:weight:0.6612903911132512
+      ¥3:weight:0.9548034957822232
+      ¥4:weight:0.5978423124651386
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.22687036802902905
+      ¥1:weight:0.4060588453841075
+      ¥2:weight:0.06695103847469808
+      ¥3:weight:0.6202862180757903
+      ¥4:weight:0.7220708004652576
+
+
+******************
+Layer: 10
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.20661278799798277
+      ¥1:weight:0.36683742612560544
+      ¥2:weight:-0.6490167812245863
+      ¥3:weight:0.051619152459018935
+      ¥4:weight:0.589879945513758
+      ¥5:weight:-0.22687036802902905
+
+    NumOfPostsynapticConnection:3
+      ¥0:weight:0.6469956356868831
+      ¥1:weight:0.539232271628279
+      ¥2:weight:0.4875733247238698
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.6600647938745591
+      ¥1:weight:-0.6527341884135293
+      ¥2:weight:-0.5655790926568288
+      ¥3:weight:-0.23836747975202333
+      ¥4:weight:0.37560603245063295
+      ¥5:weight:0.4060588453841075
+
+    NumOfPostsynapticConnection:3
+      ¥0:weight:-0.7657047502668507
+      ¥1:weight:-0.4233940488137494
+      ¥2:weight:0.7683313067245944
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.042547552594871973
+      ¥1:weight:0.8461931723856062
+      ¥2:weight:0.21583085799832946
+      ¥3:weight:0.6082912206217135
+      ¥4:weight:0.6612903911132512
+      ¥5:weight:0.06695103847469808
+
+    NumOfPostsynapticConnection:3
+      ¥0:weight:0.30096617233865064
+      ¥1:weight:-0.30257642107587546
+      ¥2:weight:0.24032185104654502
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.19970319307424556
+      ¥1:weight:-0.051381699710110196
+      ¥2:weight:-0.9627706434590093
+      ¥3:weight:-0.6552631927292618
+      ¥4:weight:0.9548034957822232
+      ¥5:weight:0.6202862180757903
+
+    NumOfPostsynapticConnection:3
+      ¥0:weight:-0.32523510055291294
+      ¥1:weight:0.6974319425612185
+      ¥2:weight:0.23375648557336992
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.4603603396999225
+      ¥1:weight:-0.5523766005254162
+      ¥2:weight:-0.8644262259756326
+      ¥3:weight:-0.9686610142213674
+      ¥4:weight:0.5978423124651386
+      ¥5:weight:0.7220708004652576
+
+    NumOfPostsynapticConnection:3
+      ¥0:weight:-0.0046334808748730305
+      ¥1:weight:0.01709705589269883
+      ¥2:weight:-0.6067480018664805
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:3
+      ¥0:weight:0.027910931164689456
+      ¥1:weight:-0.6237079998302026
+      ¥2:weight:-0.24184817510188117
+
+
+******************
+Layer: 11
+******************
+NumOfNeurons:3
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.6469956356868831
+      ¥1:weight:-0.7657047502668507
+      ¥2:weight:0.30096617233865064
+      ¥3:weight:-0.32523510055291294
+      ¥4:weight:-0.0046334808748730305
+      ¥5:weight:0.027910931164689456
+
+    NumOfPostsynapticConnection:0
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.539232271628279
+      ¥1:weight:-0.4233940488137494
+      ¥2:weight:-0.30257642107587546
+      ¥3:weight:0.6974319425612185
+      ¥4:weight:0.01709705589269883
+      ¥5:weight:-0.6237079998302026
+
+    NumOfPostsynapticConnection:0
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.4875733247238698
+      ¥1:weight:0.7683313067245944
+      ¥2:weight:0.24032185104654502
+      ¥3:weight:0.23375648557336992
+      ¥4:weight:-0.6067480018664805
+      ¥5:weight:-0.24184817510188117
+
+    NumOfPostsynapticConnection:0
+
+
+
+
+学習が収束しませんでした.
+学習後のNNの状態.
+******************
+Layer: 0
+******************
+NumOfNeurons:4
+  # Neuron 0
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.4872208941044341
+      ¥1:weight:-0.2496731636301445
+      ¥2:weight:0.20152994279731828
+      ¥3:weight:0.06769602214512849
+      ¥4:weight:0.2685717141218363
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.6525620674074151
+      ¥1:weight:-0.5732541316785302
+      ¥2:weight:-0.28689867190313745
+      ¥3:weight:0.8332653305160727
+      ¥4:weight:-0.39388930025712326
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.2806004666085246
+      ¥1:weight:1.2187063707096744
+      ¥2:weight:-0.436318852863231
+      ¥3:weight:0.35429663549269524
+      ¥4:weight:-0.6151128122608407
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.6100070127131164
+      ¥1:weight:1.2503473606433406
+      ¥2:weight:0.47554509943411427
+      ¥3:weight:0.22970386413024685
+      ¥4:weight:-0.8042459173904404
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.16771567937356108
+      ¥1:weight:0.11237712924555031
+      ¥2:weight:0.03867863885845091
+      ¥3:weight:-0.010093919448098924
+      ¥4:weight:0.7382448524312482
+
+
+******************
+Layer: 1
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:5
+      ¥0:weight:0.4872208941044341
+      ¥1:weight:-0.6525620674074151
+      ¥2:weight:0.2806004666085246
+      ¥3:weight:-0.6100070127131164
+      ¥4:weight:0.16771567937356108
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.8093018688049773
+      ¥1:weight:-0.36020354314284037
+      ¥2:weight:-0.8168087926885246
+      ¥3:weight:-0.6043360863152881
+      ¥4:weight:-0.6679548981391695
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:5
+      ¥0:weight:-0.2496731636301445
+      ¥1:weight:-0.5732541316785302
+      ¥2:weight:1.2187063707096744
+      ¥3:weight:1.2503473606433406
+      ¥4:weight:0.11237712924555031
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.5716243072879897
+      ¥1:weight:-0.34661751804017044
+      ¥2:weight:1.159847328705804
+      ¥3:weight:0.10771195200362768
+      ¥4:weight:-0.36094466868571085
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:5
+      ¥0:weight:0.20152994279731828
+      ¥1:weight:-0.28689867190313745
+      ¥2:weight:-0.436318852863231
+      ¥3:weight:0.47554509943411427
+      ¥4:weight:0.03867863885845091
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.8938940131898208
+      ¥1:weight:0.4563002478616587
+      ¥2:weight:0.3912499097372334
+      ¥3:weight:0.8152128005393187
+      ¥4:weight:0.9005131792682907
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:5
+      ¥0:weight:0.06769602214512849
+      ¥1:weight:0.8332653305160727
+      ¥2:weight:0.35429663549269524
+      ¥3:weight:0.22970386413024685
+      ¥4:weight:-0.010093919448098924
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.012332199270657006
+      ¥1:weight:0.2109874794850136
+      ¥2:weight:0.2256763162494654
+      ¥3:weight:0.0839481075540144
+      ¥4:weight:-0.5846934640700315
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:5
+      ¥0:weight:0.2685717141218363
+      ¥1:weight:-0.39388930025712326
+      ¥2:weight:-0.6151128122608407
+      ¥3:weight:-0.8042459173904404
+      ¥4:weight:0.7382448524312482
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.537090835233419
+      ¥1:weight:-0.9271934745626951
+      ¥2:weight:0.08131330056537568
+      ¥3:weight:0.23720912538691497
+      ¥4:weight:0.3848666829320695
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.2504914138952534
+      ¥1:weight:-0.12530974208042345
+      ¥2:weight:-0.2677124234468362
+      ¥3:weight:0.06994487340545028
+      ¥4:weight:0.9913730268853734
+
+
+******************
+Layer: 2
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.8093018688049773
+      ¥1:weight:0.5716243072879897
+      ¥2:weight:-0.8938940131898208
+      ¥3:weight:-0.012332199270657006
+      ¥4:weight:0.537090835233419
+      ¥5:weight:-0.2504914138952534
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.13271602878915967
+      ¥1:weight:0.10918320663944732
+      ¥2:weight:-0.5455460396874338
+      ¥3:weight:0.6072339893840546
+      ¥4:weight:-0.4260162765914321
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.36020354314284037
+      ¥1:weight:-0.34661751804017044
+      ¥2:weight:0.4563002478616587
+      ¥3:weight:0.2109874794850136
+      ¥4:weight:-0.9271934745626951
+      ¥5:weight:-0.12530974208042345
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.36855097513274326
+      ¥1:weight:0.2078190604295935
+      ¥2:weight:-0.35808550376744097
+      ¥3:weight:-0.7305463171849822
+      ¥4:weight:-0.1995598719493631
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.8168087926885246
+      ¥1:weight:1.159847328705804
+      ¥2:weight:0.3912499097372334
+      ¥3:weight:0.2256763162494654
+      ¥4:weight:0.08131330056537568
+      ¥5:weight:-0.2677124234468362
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.3697856236672252
+      ¥1:weight:1.0093402234233115
+      ¥2:weight:0.1505164425118103
+      ¥3:weight:0.686750137830911
+      ¥4:weight:0.5787103553825245
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.6043360863152881
+      ¥1:weight:0.10771195200362768
+      ¥2:weight:0.8152128005393187
+      ¥3:weight:0.0839481075540144
+      ¥4:weight:0.23720912538691497
+      ¥5:weight:0.06994487340545028
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.7022435839534019
+      ¥1:weight:-0.027540674107057767
+      ¥2:weight:-0.6291578361119703
+      ¥3:weight:0.018399095450766213
+      ¥4:weight:0.8403313244942994
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.6679548981391695
+      ¥1:weight:-0.36094466868571085
+      ¥2:weight:0.9005131792682907
+      ¥3:weight:-0.5846934640700315
+      ¥4:weight:0.3848666829320695
+      ¥5:weight:0.9913730268853734
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.8336842363679627
+      ¥1:weight:0.7503068292109434
+      ¥2:weight:-0.14992859218045917
+      ¥3:weight:0.3471633843791033
+      ¥4:weight:-0.6230650580862404
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.6582960612403127
+      ¥1:weight:0.603335538642903
+      ¥2:weight:0.7565077048125964
+      ¥3:weight:0.718322020294607
+      ¥4:weight:-0.8555151627913986
+
+
+******************
+Layer: 3
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.13271602878915967
+      ¥1:weight:0.36855097513274326
+      ¥2:weight:-0.3697856236672252
+      ¥3:weight:0.7022435839534019
+      ¥4:weight:-0.8336842363679627
+      ¥5:weight:-0.6582960612403127
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.34650781093871796
+      ¥1:weight:-0.14638281014158172
+      ¥2:weight:-0.786456532156194
+      ¥3:weight:0.38890511197698485
+      ¥4:weight:-0.7107683696185457
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.10918320663944732
+      ¥1:weight:0.2078190604295935
+      ¥2:weight:1.0093402234233115
+      ¥3:weight:-0.027540674107057767
+      ¥4:weight:0.7503068292109434
+      ¥5:weight:0.603335538642903
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.05970010914065987
+      ¥1:weight:0.5575241115967484
+      ¥2:weight:-0.48272080825464186
+      ¥3:weight:-0.8728816911240957
+      ¥4:weight:0.3378364112700797
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.5455460396874338
+      ¥1:weight:-0.35808550376744097
+      ¥2:weight:0.1505164425118103
+      ¥3:weight:-0.6291578361119703
+      ¥4:weight:-0.14992859218045917
+      ¥5:weight:0.7565077048125964
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.7031904832464434
+      ¥1:weight:-0.4150380499222673
+      ¥2:weight:-0.044482843100597025
+      ¥3:weight:-0.09182721539198757
+      ¥4:weight:0.8931202145603875
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.6072339893840546
+      ¥1:weight:-0.7305463171849822
+      ¥2:weight:0.686750137830911
+      ¥3:weight:0.018399095450766213
+      ¥4:weight:0.3471633843791033
+      ¥5:weight:0.718322020294607
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.5291012413724969
+      ¥1:weight:0.5980585478708462
+      ¥2:weight:-0.06685561586433235
+      ¥3:weight:0.6152473537954112
+      ¥4:weight:-0.9215861904039206
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.4260162765914321
+      ¥1:weight:-0.1995598719493631
+      ¥2:weight:0.5787103553825245
+      ¥3:weight:0.8403313244942994
+      ¥4:weight:-0.6230650580862404
+      ¥5:weight:-0.8555151627913986
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.5180830675890233
+      ¥1:weight:-0.2524863005586815
+      ¥2:weight:-0.44649406028536887
+      ¥3:weight:0.10402271109610228
+      ¥4:weight:0.8308549232404822
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.3789738440602617
+      ¥1:weight:-0.7620381108184029
+      ¥2:weight:0.530467790221527
+      ¥3:weight:-0.929076948066733
+      ¥4:weight:-0.7821694480827819
+
+
+******************
+Layer: 4
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.34650781093871796
+      ¥1:weight:-0.05970010914065987
+      ¥2:weight:0.7031904832464434
+      ¥3:weight:0.5291012413724969
+      ¥4:weight:-0.5180830675890233
+      ¥5:weight:-0.3789738440602617
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.12709315648384426
+      ¥1:weight:0.04238372648175595
+      ¥2:weight:0.6942831775931986
+      ¥3:weight:0.28577056328704026
+      ¥4:weight:-0.7562683573820572
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.14638281014158172
+      ¥1:weight:0.5575241115967484
+      ¥2:weight:-0.4150380499222673
+      ¥3:weight:0.5980585478708462
+      ¥4:weight:-0.2524863005586815
+      ¥5:weight:-0.7620381108184029
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.16881270873114734
+      ¥1:weight:-0.12174964270465378
+      ¥2:weight:0.9637238295358357
+      ¥3:weight:-0.15603103749922267
+      ¥4:weight:-0.7693978128534019
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.786456532156194
+      ¥1:weight:-0.48272080825464186
+      ¥2:weight:-0.044482843100597025
+      ¥3:weight:-0.06685561586433235
+      ¥4:weight:-0.44649406028536887
+      ¥5:weight:0.530467790221527
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.7227994102924278
+      ¥1:weight:-0.2680229351238006
+      ¥2:weight:-0.8034687810746941
+      ¥3:weight:0.7474481015238746
+      ¥4:weight:-0.07472100316306657
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.38890511197698485
+      ¥1:weight:-0.8728816911240957
+      ¥2:weight:-0.09182721539198757
+      ¥3:weight:0.6152473537954112
+      ¥4:weight:0.10402271109610228
+      ¥5:weight:-0.929076948066733
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.8087007712391256
+      ¥1:weight:-0.9096571391632523
+      ¥2:weight:0.8145590120791477
+      ¥3:weight:-0.7605287969282206
+      ¥4:weight:0.26899104847680755
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.7107683696185457
+      ¥1:weight:0.3378364112700797
+      ¥2:weight:0.8931202145603875
+      ¥3:weight:-0.9215861904039206
+      ¥4:weight:0.8308549232404822
+      ¥5:weight:-0.7821694480827819
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.24737934392488814
+      ¥1:weight:0.6050432956536762
+      ¥2:weight:-0.931276586767939
+      ¥3:weight:-0.8298257130693816
+      ¥4:weight:0.625614717385773
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.461828119377228
+      ¥1:weight:0.3584160732105842
+      ¥2:weight:0.38604222344428396
+      ¥3:weight:0.19996897516768602
+      ¥4:weight:0.1232648877676657
+
+
+******************
+Layer: 5
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.12709315648384426
+      ¥1:weight:0.16881270873114734
+      ¥2:weight:-0.7227994102924278
+      ¥3:weight:0.8087007712391256
+      ¥4:weight:-0.24737934392488814
+      ¥5:weight:-0.461828119377228
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.3890009869021808
+      ¥1:weight:-0.2652665556743919
+      ¥2:weight:0.26743882534998975
+      ¥3:weight:0.09092643857345535
+      ¥4:weight:0.17199744458668098
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.04238372648175595
+      ¥1:weight:-0.12174964270465378
+      ¥2:weight:-0.2680229351238006
+      ¥3:weight:-0.9096571391632523
+      ¥4:weight:0.6050432956536762
+      ¥5:weight:0.3584160732105842
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.8591765283544571
+      ¥1:weight:-0.01059122129466619
+      ¥2:weight:0.8324889059793377
+      ¥3:weight:0.051526749092191446
+      ¥4:weight:-0.3782732102021493
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.6942831775931986
+      ¥1:weight:0.9637238295358357
+      ¥2:weight:-0.8034687810746941
+      ¥3:weight:0.8145590120791477
+      ¥4:weight:-0.931276586767939
+      ¥5:weight:0.38604222344428396
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.2558105914064624
+      ¥1:weight:2.8476893982651405E-4
+      ¥2:weight:0.3064775625970346
+      ¥3:weight:0.8446502676070216
+      ¥4:weight:-0.9851377681842122
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.28577056328704026
+      ¥1:weight:-0.15603103749922267
+      ¥2:weight:0.7474481015238746
+      ¥3:weight:-0.7605287969282206
+      ¥4:weight:-0.8298257130693816
+      ¥5:weight:0.19996897516768602
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.1223114511342156
+      ¥1:weight:0.7286864319830403
+      ¥2:weight:-0.38679619063538406
+      ¥3:weight:-0.5884963292286445
+      ¥4:weight:0.3909065772857554
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.7562683573820572
+      ¥1:weight:-0.7693978128534019
+      ¥2:weight:-0.07472100316306657
+      ¥3:weight:0.26899104847680755
+      ¥4:weight:0.625614717385773
+      ¥5:weight:0.1232648877676657
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.44893154874716784
+      ¥1:weight:0.20415495038975418
+      ¥2:weight:0.34140498334754443
+      ¥3:weight:0.40719337567424596
+      ¥4:weight:-0.319377642293178
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.10240779467358885
+      ¥1:weight:-0.6713982833362742
+      ¥2:weight:0.22277460434028076
+      ¥3:weight:-0.4320300826141284
+      ¥4:weight:-0.9361316826968944
+
+
+******************
+Layer: 6
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.3890009869021808
+      ¥1:weight:0.8591765283544571
+      ¥2:weight:0.2558105914064624
+      ¥3:weight:0.1223114511342156
+      ¥4:weight:0.44893154874716784
+      ¥5:weight:0.10240779467358885
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.9174137401167988
+      ¥1:weight:-0.4678303656464813
+      ¥2:weight:-0.9898314973295096
+      ¥3:weight:0.5394466503579206
+      ¥4:weight:0.16987495850963436
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.2652665556743919
+      ¥1:weight:-0.01059122129466619
+      ¥2:weight:2.8476893982651405E-4
+      ¥3:weight:0.7286864319830403
+      ¥4:weight:0.20415495038975418
+      ¥5:weight:-0.6713982833362742
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.45953905548312135
+      ¥1:weight:-0.38658785022464603
+      ¥2:weight:-0.23662860158610094
+      ¥3:weight:0.37400841637412685
+      ¥4:weight:0.8252429926415268
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.26743882534998975
+      ¥1:weight:0.8324889059793377
+      ¥2:weight:0.3064775625970346
+      ¥3:weight:-0.38679619063538406
+      ¥4:weight:0.34140498334754443
+      ¥5:weight:0.22277460434028076
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.3292915404932594
+      ¥1:weight:-0.47032780767323457
+      ¥2:weight:-0.886155364238189
+      ¥3:weight:0.3429378729458114
+      ¥4:weight:0.17275762367145528
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.09092643857345535
+      ¥1:weight:0.051526749092191446
+      ¥2:weight:0.8446502676070216
+      ¥3:weight:-0.5884963292286445
+      ¥4:weight:0.40719337567424596
+      ¥5:weight:-0.4320300826141284
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.1653020528096193
+      ¥1:weight:-0.4983597674310226
+      ¥2:weight:0.7062162810064174
+      ¥3:weight:0.05185311379436651
+      ¥4:weight:0.9808317173621768
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.17199744458668098
+      ¥1:weight:-0.3782732102021493
+      ¥2:weight:-0.9851377681842122
+      ¥3:weight:0.3909065772857554
+      ¥4:weight:-0.319377642293178
+      ¥5:weight:-0.9361316826968944
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.8542280132045836
+      ¥1:weight:0.15955765965364332
+      ¥2:weight:0.3927446506598593
+      ¥3:weight:0.4602733024065475
+      ¥4:weight:-0.5034238613986252
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.4699638342021725
+      ¥1:weight:1.2644687631359415
+      ¥2:weight:0.040757333946430795
+      ¥3:weight:1.120849627748613
+      ¥4:weight:-0.2146504072620569
+
+
+******************
+Layer: 7
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.9174137401167988
+      ¥1:weight:0.45953905548312135
+      ¥2:weight:-0.3292915404932594
+      ¥3:weight:-0.1653020528096193
+      ¥4:weight:0.8542280132045836
+      ¥5:weight:0.4699638342021725
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.32750758278642134
+      ¥1:weight:0.4931105100458161
+      ¥2:weight:-0.23526940854379655
+      ¥3:weight:0.5006346299651855
+      ¥4:weight:-0.796792785295183
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.4678303656464813
+      ¥1:weight:-0.38658785022464603
+      ¥2:weight:-0.47032780767323457
+      ¥3:weight:-0.4983597674310226
+      ¥4:weight:0.15955765965364332
+      ¥5:weight:1.2644687631359415
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.9783582528357917
+      ¥1:weight:-0.9238658786484297
+      ¥2:weight:-0.0356163549757948
+      ¥3:weight:-0.6614898421183875
+      ¥4:weight:-0.6842855882358949
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.9898314973295096
+      ¥1:weight:-0.23662860158610094
+      ¥2:weight:-0.886155364238189
+      ¥3:weight:0.7062162810064174
+      ¥4:weight:0.3927446506598593
+      ¥5:weight:0.040757333946430795
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.06776111087182295
+      ¥1:weight:0.06599678146957
+      ¥2:weight:0.7868511010116678
+      ¥3:weight:-0.7017029949883072
+      ¥4:weight:0.13278878242125988
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.5394466503579206
+      ¥1:weight:0.37400841637412685
+      ¥2:weight:0.3429378729458114
+      ¥3:weight:0.05185311379436651
+      ¥4:weight:0.4602733024065475
+      ¥5:weight:1.120849627748613
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:1.1403785012640049
+      ¥1:weight:-0.05764028668841448
+      ¥2:weight:0.8047131480482274
+      ¥3:weight:0.5444687626243917
+      ¥4:weight:0.5320619687904362
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.16987495850963436
+      ¥1:weight:0.8252429926415268
+      ¥2:weight:0.17275762367145528
+      ¥3:weight:0.9808317173621768
+      ¥4:weight:-0.5034238613986252
+      ¥5:weight:-0.2146504072620569
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.6484821037889507
+      ¥1:weight:-0.25322490888445204
+      ¥2:weight:0.0637174038944314
+      ¥3:weight:0.22108966509833025
+      ¥4:weight:0.7264936882663695
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.43191209074212245
+      ¥1:weight:-0.5849892493120469
+      ¥2:weight:-0.28898754639327207
+      ¥3:weight:-0.4150196608338882
+      ¥4:weight:-0.4032731036109085
+
+
+******************
+Layer: 8
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.32750758278642134
+      ¥1:weight:0.9783582528357917
+      ¥2:weight:0.06776111087182295
+      ¥3:weight:1.1403785012640049
+      ¥4:weight:-0.6484821037889507
+      ¥5:weight:0.43191209074212245
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.6154756932612159
+      ¥1:weight:-0.11057353617826093
+      ¥2:weight:0.9166639088421497
+      ¥3:weight:-0.7386509277909699
+      ¥4:weight:1.1902659188523717
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.4931105100458161
+      ¥1:weight:-0.9238658786484297
+      ¥2:weight:0.06599678146957
+      ¥3:weight:-0.05764028668841448
+      ¥4:weight:-0.25322490888445204
+      ¥5:weight:-0.5849892493120469
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.5878596692833205
+      ¥1:weight:-0.879636096733917
+      ¥2:weight:-0.45445087493034064
+      ¥3:weight:-0.6693307411895041
+      ¥4:weight:-0.4644604082608609
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.23526940854379655
+      ¥1:weight:-0.0356163549757948
+      ¥2:weight:0.7868511010116678
+      ¥3:weight:0.8047131480482274
+      ¥4:weight:0.0637174038944314
+      ¥5:weight:-0.28898754639327207
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.8782707104136626
+      ¥1:weight:0.3996160114212095
+      ¥2:weight:-0.09396491987022382
+      ¥3:weight:-0.9793918041678397
+      ¥4:weight:0.5359310405512733
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.5006346299651855
+      ¥1:weight:-0.6614898421183875
+      ¥2:weight:-0.7017029949883072
+      ¥3:weight:0.5444687626243917
+      ¥4:weight:0.22108966509833025
+      ¥5:weight:-0.4150196608338882
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.032869994774183064
+      ¥1:weight:-0.43591922101296854
+      ¥2:weight:-0.724146593669664
+      ¥3:weight:-0.9263982349935961
+      ¥4:weight:-0.6472483617190526
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.796792785295183
+      ¥1:weight:-0.6842855882358949
+      ¥2:weight:0.13278878242125988
+      ¥3:weight:0.5320619687904362
+      ¥4:weight:0.7264936882663695
+      ¥5:weight:-0.4032731036109085
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.8396339068358241
+      ¥1:weight:0.020603004119286505
+      ¥2:weight:-1.2208929652574982
+      ¥3:weight:0.6467483369700591
+      ¥4:weight:-0.8615997405791966
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.7475073211603432
+      ¥1:weight:-0.8366994116418788
+      ¥2:weight:0.8456860481391149
+      ¥3:weight:-0.44811225780875175
+      ¥4:weight:1.1299247444728417
+
+
+******************
+Layer: 9
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.6154756932612159
+      ¥1:weight:-0.5878596692833205
+      ¥2:weight:-0.8782707104136626
+      ¥3:weight:0.032869994774183064
+      ¥4:weight:-0.8396339068358241
+      ¥5:weight:-0.7475073211603432
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.20661278799798277
+      ¥1:weight:-0.6600647938745591
+      ¥2:weight:0.042547552594871973
+      ¥3:weight:0.19970319307424556
+      ¥4:weight:0.4603603396999225
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.11057353617826093
+      ¥1:weight:-0.879636096733917
+      ¥2:weight:0.3996160114212095
+      ¥3:weight:-0.43591922101296854
+      ¥4:weight:0.020603004119286505
+      ¥5:weight:-0.8366994116418788
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.3403400637062341
+      ¥1:weight:-0.4181343646359222
+      ¥2:weight:0.8421118693994355
+      ¥3:weight:-0.12597539914224484
+      ¥4:weight:-0.6925523339012375
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.9166639088421497
+      ¥1:weight:-0.45445087493034064
+      ¥2:weight:-0.09396491987022382
+      ¥3:weight:-0.724146593669664
+      ¥4:weight:-1.2208929652574982
+      ¥5:weight:0.8456860481391149
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.6930996023551586
+      ¥1:weight:-0.7642478935834119
+      ¥2:weight:0.7789913266575655
+      ¥3:weight:-1.5149438113960934
+      ¥4:weight:-0.6995214281935489
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.7386509277909699
+      ¥1:weight:-0.6693307411895041
+      ¥2:weight:-0.9793918041678397
+      ¥3:weight:-0.9263982349935961
+      ¥4:weight:0.6467483369700591
+      ¥5:weight:-0.44811225780875175
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.051619152459018935
+      ¥1:weight:-0.23836747975202333
+      ¥2:weight:0.6082912206217135
+      ¥3:weight:-0.6552631927292618
+      ¥4:weight:-0.9686610142213674
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:1.1902659188523717
+      ¥1:weight:-0.4644604082608609
+      ¥2:weight:0.5359310405512733
+      ¥3:weight:-0.6472483617190526
+      ¥4:weight:-0.8615997405791966
+      ¥5:weight:1.1299247444728417
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:0.5179352994170726
+      ¥1:weight:0.030447338015077145
+      ¥2:weight:1.0234505516272288
+      ¥3:weight:0.7956742962841213
+      ¥4:weight:1.1200312125439482
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:5
+      ¥0:weight:-0.2774500716690628
+      ¥1:weight:1.7900248349332029
+      ¥2:weight:-0.11991253641609084
+      ¥3:weight:1.1366701961570225
+      ¥4:weight:1.017460834382482
+
+
+******************
+Layer: 10
+******************
+NumOfNeurons:5
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.20661278799798277
+      ¥1:weight:0.3403400637062341
+      ¥2:weight:-0.6930996023551586
+      ¥3:weight:0.051619152459018935
+      ¥4:weight:0.5179352994170726
+      ¥5:weight:-0.2774500716690628
+
+    NumOfPostsynapticConnection:3
+      ¥0:weight:0.6107377212398549
+      ¥1:weight:0.6011907781472068
+      ¥2:weight:0.44164590614171045
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:-0.6600647938745591
+      ¥1:weight:-0.4181343646359222
+      ¥2:weight:-0.7642478935834119
+      ¥3:weight:-0.23836747975202333
+      ¥4:weight:0.030447338015077145
+      ¥5:weight:1.7900248349332029
+
+    NumOfPostsynapticConnection:3
+      ¥0:weight:-1.9126747521677263
+      ¥1:weight:-0.33504767592950213
+      ¥2:weight:0.7038778137569514
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.042547552594871973
+      ¥1:weight:0.8421118693994355
+      ¥2:weight:0.7789913266575655
+      ¥3:weight:0.6082912206217135
+      ¥4:weight:1.0234505516272288
+      ¥5:weight:-0.11991253641609084
+
+    NumOfPostsynapticConnection:3
+      ¥0:weight:0.7420452007272142
+      ¥1:weight:-0.8718967124016772
+      ¥2:weight:-0.3304537630810789
+
+  # Neuron 3
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.19970319307424556
+      ¥1:weight:-0.12597539914224484
+      ¥2:weight:-1.5149438113960934
+      ¥3:weight:-0.6552631927292618
+      ¥4:weight:0.7956742962841213
+      ¥5:weight:1.1366701961570225
+
+    NumOfPostsynapticConnection:3
+      ¥0:weight:-1.2647210575304446
+      ¥1:weight:1.0313892102135975
+      ¥2:weight:-6.404319710445683E-4
+
+  # Neuron 4
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.4603603396999225
+      ¥1:weight:-0.6925523339012375
+      ¥2:weight:-0.6995214281935489
+      ¥3:weight:-0.9686610142213674
+      ¥4:weight:1.1200312125439482
+      ¥5:weight:1.017460834382482
+
+    NumOfPostsynapticConnection:3
+      ¥0:weight:-0.6678864837690189
+      ¥1:weight:0.0887694481820882
+      ¥2:weight:-1.1153462085056471
+
+  # Bias
+
+    NumOfPresynapticConnection:0
+
+    NumOfPostsynapticConnection:3
+      ¥0:weight:-0.7566125869192174
+      ¥1:weight:-0.9040846109058945
+      ¥2:weight:-0.28474952175227597
+
+
+******************
+Layer: 11
+******************
+NumOfNeurons:3
+  # Neuron 0
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.6107377212398549
+      ¥1:weight:-1.9126747521677263
+      ¥2:weight:0.7420452007272142
+      ¥3:weight:-1.2647210575304446
+      ¥4:weight:-0.6678864837690189
+      ¥5:weight:-0.7566125869192174
+
+    NumOfPostsynapticConnection:0
+
+  # Neuron 1
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.6011907781472068
+      ¥1:weight:-0.33504767592950213
+      ¥2:weight:-0.8718967124016772
+      ¥3:weight:1.0313892102135975
+      ¥4:weight:0.0887694481820882
+      ¥5:weight:-0.9040846109058945
+
+    NumOfPostsynapticConnection:0
+
+  # Neuron 2
+
+    NumOfPresynapticConnection:6
+      ¥0:weight:0.44164590614171045
+      ¥1:weight:0.7038778137569514
+      ¥2:weight:-0.3304537630810789
+      ¥3:weight:-6.404319710445683E-4
+      ¥4:weight:-1.1153462085056471
+      ¥5:weight:-0.28474952175227597
+
+    NumOfPostsynapticConnection:0
+
+
+
+verify by trainingDatas.
+Start verification!
+verificationData 0 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.7, 3.2, 1.3, 0.2]
+outputs: [0.9000033360952253, 5.850761492724233E-4, 3.980634818291843E-4]
+Correct!!
+
+verificationData 1 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.6, 3.1, 1.5, 0.2]
+outputs: [0.9000340401410634, 5.851070468265227E-4, 3.9836963858357765E-4]
+Correct!!
+
+verificationData 2 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.0, 3.6, 1.4, 0.2]
+outputs: [0.8999325951879116, 5.821834873881738E-4, 3.9039683313600967E-4]
+Correct!!
+
+verificationData 3 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.6, 3.4, 1.4, 0.3]
+outputs: [0.9000403188097815, 5.81282204543676E-4, 3.8754006379967097E-4]
+Correct!!
+
+verificationData 4 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.9, 3.1, 1.5, 0.1]
+outputs: [0.9000574736350558, 5.821627687684071E-4, 3.945095231706039E-4]
+Correct!!
+
+verificationData 5 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.8, 3.4, 1.6, 0.2]
+outputs: [0.8998760341473638, 5.834494502850533E-4, 3.94736206179467E-4]
+Correct!!
+
+verificationData 6 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.8, 3.0, 1.4, 0.1]
+outputs: [0.9000815049196478, 5.813716693125467E-4, 3.936257376523845E-4]
+Correct!!
+
+verificationData 7 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.4, 3.9, 1.3, 0.4]
+outputs: [0.8999382560163605, 5.823846985344121E-4, 3.8834270560845867E-4]
+Correct!!
+
+verificationData 8 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.7, 3.8, 1.7, 0.3]
+outputs: [0.8998239226600497, 5.855243582363321E-4, 3.97145950608518E-4]
+Correct!!
+
+verificationData 9 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.1, 3.8, 1.5, 0.3]
+outputs: [0.8999648437657619, 5.821193412305166E-4, 3.879659249426126E-4]
+Correct!!
+
+verificationData 10 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.1, 3.7, 1.5, 0.4]
+outputs: [0.899986964472011, 5.818996102006238E-4, 3.876450369592074E-4]
+Correct!!
+
+verificationData 11 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.6, 3.6, 1.0, 0.2]
+outputs: [0.8999801925320426, 5.820038770291404E-4, 3.874588973509268E-4]
+Correct!!
+
+verificationData 12 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.1, 3.3, 1.7, 0.5]
+outputs: [0.8999193321641185, 5.850445753517989E-4, 3.973004302487257E-4]
+Correct!!
+
+verificationData 13 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.0, 3.0, 1.6, 0.2]
+outputs: [0.9000700892214981, 5.808852898027247E-4, 3.9286074347865183E-4]
+Correct!!
+
+verificationData 14 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.0, 3.4, 1.6, 0.4]
+outputs: [0.8998518593435815, 5.827845090504142E-4, 3.931274313709213E-4]
+Correct!!
+
+verificationData 15 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.2, 3.5, 1.5, 0.2]
+outputs: [0.8999484182653669, 5.866462062981145E-4, 3.9976204874352214E-4]
+Correct!!
+
+verificationData 16 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.2, 3.4, 1.4, 0.2]
+outputs: [0.8999901478923494, 5.860874417832675E-4, 3.9934815159116236E-4]
+Correct!!
+
+verificationData 17 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.7, 3.2, 1.6, 0.2]
+outputs: [0.9000099987089403, 5.859032262043864E-4, 3.992640710588726E-4]
+Correct!!
+
+verificationData 18 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.8, 3.1, 1.6, 0.2]
+outputs: [0.9000380378802187, 5.83706869494356E-4, 3.9647072076637053E-4]
+Correct!!
+
+verificationData 19 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.4, 3.4, 1.5, 0.4]
+outputs: [0.899971387208372, 5.867642900484239E-4, 4.0012331398776765E-4]
+Correct!!
+
+verificationData 20 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.2, 4.1, 1.5, 0.1]
+outputs: [0.89995310029813, 5.822464859021874E-4, 3.880563734854498E-4]
+Correct!!
+
+verificationData 21 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.9, 3.1, 1.5, 0.1]
+outputs: [0.9000574736350558, 5.821627687684071E-4, 3.945095231706039E-4]
+Correct!!
+
+verificationData 22 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.0, 3.2, 1.2, 0.2]
+outputs: [0.9000382341026705, 5.844956642913265E-4, 3.975609134104971E-4]
+Correct!!
+
+verificationData 23 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.9, 3.1, 1.5, 0.1]
+outputs: [0.9000574736350558, 5.821627687684071E-4, 3.945095231706039E-4]
+Correct!!
+
+verificationData 24 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.4, 3.0, 1.3, 0.2]
+outputs: [0.9000580989962284, 5.850755582788373E-4, 3.985327159078355E-4]
+Correct!!
+
+verificationData 25 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.1, 3.4, 1.5, 0.2]
+outputs: [0.8999820811364122, 5.865997830527837E-4, 3.9998771800134385E-4]
+Correct!!
+
+verificationData 26 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.5, 2.3, 1.3, 0.3]
+outputs: [0.9005370302337681, 5.757730964355289E-4, 3.848629986501528E-4]
+Correct!!
+
+verificationData 27 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.4, 3.2, 1.3, 0.2]
+outputs: [0.899923710358319, 5.820798041747979E-4, 3.92003936350549E-4]
+Correct!!
+
+verificationData 28 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.0, 3.5, 1.6, 0.6]
+outputs: [0.900005662319127, 5.817227123361989E-4, 3.873068337980871E-4]
+Correct!!
+
+verificationData 29 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.3, 3.7, 1.5, 0.2]
+outputs: [0.8998371772737414, 5.829771828549189E-4, 3.929817126640516E-4]
+Correct!!
+
+verificationData 30 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[7.0, 3.2, 4.7, 1.4]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 31 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.5, 2.3, 4.0, 1.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 32 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[4.9, 2.4, 3.3, 1.0]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 33 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.0, 2.0, 3.5, 1.0]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 34 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.0, 2.2, 4.0, 1.0]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 35 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.1, 2.9, 4.7, 1.4]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 36 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.7, 3.1, 4.4, 1.4]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 37 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.9, 3.2, 4.8, 1.8]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 38 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.1, 2.8, 4.0, 1.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 39 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.6, 3.0, 4.4, 1.4]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 40 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.5, 2.4, 3.8, 1.1]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 41 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.0, 2.7, 5.1, 1.6]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 42 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.4, 3.0, 4.5, 1.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 43 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.3, 2.3, 4.4, 1.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 44 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.6, 3.0, 4.1, 1.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 45 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.5, 2.6, 4.4, 1.2]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 46 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.1, 3.0, 4.6, 1.4]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 47 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.8, 2.6, 4.0, 1.2]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 48 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.0, 2.3, 3.3, 1.0]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 49 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.7, 3.0, 4.2, 1.2]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 50 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.1, 2.5, 3.0, 1.1]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 51 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.7, 2.8, 4.1, 1.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 52 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[5.8, 2.7, 5.1, 1.9]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 53 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.5, 3.0, 5.8, 2.2]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 54 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[7.6, 3.0, 6.6, 2.1]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 55 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.7, 2.5, 5.8, 1.8]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 56 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.4, 2.7, 5.3, 1.9]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 57 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.8, 3.0, 5.5, 2.1]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 58 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[5.7, 2.5, 5.0, 2.0]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 59 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[5.8, 2.8, 5.1, 2.4]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 60 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.4, 3.2, 5.3, 2.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 61 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[7.7, 3.8, 6.7, 2.2]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 62 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[7.7, 2.6, 6.9, 2.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 63 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[5.6, 2.8, 4.9, 2.0]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 64 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[7.7, 2.8, 6.7, 2.0]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 65 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.3, 2.7, 4.9, 1.8]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 66 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.7, 3.3, 5.7, 2.1]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 67 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.4, 2.8, 5.6, 2.1]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 68 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.4, 2.8, 5.6, 2.2]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 69 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.3, 2.8, 5.1, 1.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 70 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.1, 2.6, 5.6, 1.4]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 71 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.3, 3.4, 5.6, 2.4]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 72 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.7, 3.3, 5.7, 2.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 73 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.2, 3.4, 5.4, 2.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 74 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[5.9, 3.0, 5.1, 1.8]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+training precision:0.7066666666666667
+
+verify by verificationDatas.
+Start verification!
+verificationData 0 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.4, 2.9, 1.4, 0.2]
+outputs: [0.9000780663027471, 5.833918434733252E-4, 3.9637827765717424E-4]
+Correct!!
+
+verificationData 1 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.4, 3.1, 5.5, 1.8]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 2 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.3, 2.9, 5.6, 1.8]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 3 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.9, 3.2, 5.7, 2.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 4 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.7, 3.1, 5.6, 2.4]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 5 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.1, 2.8, 4.7, 1.2]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 6 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.6, 2.9, 4.6, 1.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 7 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.3, 3.3, 6.0, 2.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 8 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.6, 2.9, 3.6, 1.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 9 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.7, 3.1, 4.7, 1.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 10 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.1, 3.5, 1.4, 0.3]
+outputs: [0.8998640989734419, 5.826886304022143E-4, 3.92749046905718E-4]
+Correct!!
+
+verificationData 11 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.4, 3.7, 1.5, 0.2]
+outputs: [0.8998368485372163, 5.839049458232539E-4, 3.950289087099007E-4]
+Correct!!
+
+verificationData 12 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.9, 3.1, 4.9, 1.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 13 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[7.9, 3.8, 6.4, 2.0]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 14 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[7.4, 2.8, 6.1, 1.9]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 15 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.0, 3.3, 1.4, 0.2]
+outputs: [0.9000061285352161, 5.858026576840025E-4, 3.990916650574017E-4]
+Correct!!
+
+verificationData 16 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.9, 3.1, 5.1, 2.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 17 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.0, 3.0, 4.8, 1.8]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 18 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.1, 3.8, 1.6, 0.2]
+outputs: [0.899999767127053, 5.817724560680052E-4, 3.874594111659121E-4]
+Correct!!
+
+verificationData 19 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.2, 2.9, 4.3, 1.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 20 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.3, 3.0, 1.1, 0.1]
+outputs: [0.9000701315109707, 5.849417638366147E-4, 3.9845104512116204E-4]
+Correct!!
+
+verificationData 21 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.0, 3.4, 1.5, 0.2]
+outputs: [0.8999597243888459, 5.86060401549952E-4, 3.9904916095886213E-4]
+Correct!!
+
+verificationData 22 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.5, 2.4, 3.7, 1.0]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 23 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.8, 3.0, 1.4, 0.3]
+outputs: [0.9000587626099321, 5.834392633022865E-4, 3.962787519013999E-4]
+Correct!!
+
+verificationData 24 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.7, 3.0, 5.2, 2.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 25 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.6, 3.0, 4.5, 1.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 26 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[7.2, 3.2, 6.0, 1.8]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 27 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.6, 3.2, 1.4, 0.2]
+outputs: [0.8999673908941135, 5.842117828827009E-4, 3.965632514690743E-4]
+Correct!!
+
+verificationData 28 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.5, 2.8, 4.6, 1.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 29 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.8, 3.4, 1.9, 0.2]
+outputs: [0.8999176984511265, 5.856886285179144E-4, 3.9817490756656866E-4]
+Correct!!
+
+verificationData 30 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.2, 2.7, 3.9, 1.4]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 31 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.0, 2.9, 4.5, 1.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 32 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.9, 3.1, 5.4, 2.1]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 33 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.8, 2.7, 4.1, 1.0]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 34 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.6, 2.7, 4.2, 1.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 35 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.5, 3.2, 5.1, 2.0]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 36 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[4.9, 3.0, 1.4, 0.2]
+outputs: [0.9000741533543071, 5.817701333653521E-4, 3.9411119534241433E-4]
+Correct!!
+
+verificationData 37 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.3, 2.5, 5.0, 1.9]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 38 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.7, 3.0, 5.0, 1.7]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 39 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.7, 2.9, 4.2, 1.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 40 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.8, 3.2, 5.9, 2.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 41 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.7, 2.8, 4.5, 1.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 42 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.1, 3.8, 1.9, 0.4]
+outputs: [0.8999376752243912, 5.823901064875658E-4, 3.8835391205927785E-4]
+Correct!!
+
+verificationData 43 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.9, 3.0, 4.2, 1.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 44 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.5, 3.0, 5.2, 2.0]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 45 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.3, 3.3, 4.7, 1.6]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 46 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[7.1, 3.0, 5.9, 2.1]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 47 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.0, 3.4, 4.5, 1.6]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 48 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.4, 3.9, 1.7, 0.4]
+outputs: [0.8999377107201273, 5.823897759739591E-4, 3.8835322715717244E-4]
+Correct!!
+
+verificationData 49 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[5.8, 2.7, 5.1, 1.9]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 50 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[7.2, 3.6, 6.1, 2.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 51 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.1, 3.5, 1.4, 0.2]
+outputs: [0.8998913280859385, 5.838637160713889E-4, 3.954355817198754E-4]
+Correct!!
+
+verificationData 52 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.5, 2.5, 4.0, 1.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 53 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.1, 3.0, 4.9, 1.8]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 54 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.2, 2.2, 4.5, 1.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 55 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[7.7, 3.0, 6.1, 2.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 56 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.7, 2.6, 3.5, 1.0]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 57 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.8, 4.0, 1.2, 0.2]
+outputs: [0.8999098627212581, 5.82491784546474E-4, 3.9009552015285603E-4]
+Correct!!
+
+verificationData 58 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[4.9, 2.5, 4.5, 1.7]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 59 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.8, 2.8, 4.8, 1.4]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 60 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.5, 4.2, 1.4, 0.2]
+outputs: [0.8999225257568895, 5.825705918439255E-4, 3.883452601122763E-4]
+Correct!!
+
+verificationData 61 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.7, 4.4, 1.5, 0.4]
+outputs: [0.8972335568272086, 6.028252204279096E-4, 3.901724288452195E-4]
+Correct!!
+
+verificationData 62 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.8, 2.7, 3.9, 1.2]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 63 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[7.2, 3.0, 5.8, 1.6]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 64 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.4, 3.2, 4.5, 1.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 65 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.5, 3.5, 1.3, 0.2]
+outputs: [0.8999822323028076, 5.858602214907951E-4, 3.989658485100482E-4]
+Correct!!
+
+verificationData 66 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.4, 3.4, 1.7, 0.2]
+outputs: [0.8999860581464798, 5.84432268963784E-4, 3.970267790801048E-4]
+Correct!!
+
+verificationData 67 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[5.6, 2.5, 3.9, 1.1]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 68 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[7.3, 2.9, 6.3, 1.8]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 69 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.3, 2.5, 4.9, 1.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verificationData 70 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.5, 3.0, 5.5, 1.8]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 71 :
+teacherOutputs : [0.9, 0.0, 0.0]
+inputs:[5.0, 3.5, 1.3, 0.3]
+outputs: [0.899941499804923, 5.820746269623567E-4, 3.904236943662166E-4]
+Correct!!
+
+verificationData 72 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.0, 2.2, 5.0, 1.5]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 73 :
+teacherOutputs : [0.0, 0.0, 0.9]
+inputs:[6.2, 2.8, 4.8, 1.8]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Correct!!
+
+verificationData 74 :
+teacherOutputs : [0.0, 0.9, 0.0]
+inputs:[6.4, 2.9, 4.3, 1.3]
+outputs: [0.001837579181843031, 0.4400006401012918, 0.46000070839730767]
+Incorrect...
+
+verification precision:0.6266666666666667
