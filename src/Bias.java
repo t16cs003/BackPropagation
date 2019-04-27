@@ -5,10 +5,15 @@ class Bias extends Neuron{
     }
 
     @Override
-    public double output(boolean debug) {
-        output = 1.0;
+    public double getOutput(LearningData data) {
+        return 1;
+    }
+    @Override
+    public double output(LearningData data,boolean debug) {
+        double output = 1.0;
+        outputs.put(data, 1.0);
         for(SynapticConnection postsynapticConnection:postsynapticConnections){
-            postsynapticConnection.output(output);
+            postsynapticConnection.output(output,data);
         }
         if(debug){
             /************************
@@ -20,7 +25,7 @@ class Bias extends Neuron{
                 indent += tab;
             }
             System.out.println(indent+"#Layer "+layer.getIndex()+" Bias "+":");
-            System.out.println(indent+tab+"input "+input);
+            System.out.println(indent+tab+"input "+inputs.get(data));
             System.out.println(indent+tab+"output "+output);
             /***********************/
         }

@@ -1,6 +1,7 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-
+import java.util.Map;
 public class Neuron{
     public static enum FunctionType{
         Sigmoid,
@@ -17,11 +18,11 @@ public class Neuron{
     /** 活性化関数 */
     private ActivationFunction function;
     /** 入力値 */
-    protected double input;
+    protected Map<LearningData,Double> inputs;
     /** 出力値 */
-    protected double output;
-    /** 修正量に比例する変数 δ^m */
-    protected double delta_k;
+    protected Map<LearningData, Double> outputs;
+    /** 修正量に比例する変数 δ^k */
+    protected double deltaK;
 
     /**
      * ニューロンの初期化を行う.シグモイド関数のゲインは Sigmoid.EPSILON を使う.
@@ -52,20 +53,22 @@ public class Neuron{
         }
         presynapticConnections = new ArrayList<>();
         postsynapticConnections = new ArrayList<>();
+        inputs = new HashMap<>();
+        outputs = new HashMap<>();
     }
     
     /**
      * @return output 出力値
      */
-    public double getOutput() {
-        return output;
+    public double getOutput(LearningData data) {
+        return outputs.get(data).doubleValue();
     }
 
     /**
      * @return the input
      */
-    public double getInput() {
-        return input;
+    public double getInput(LearningData data) {
+        return inputs.get(data).doubleValue();
     }
 
     /**
@@ -78,8 +81,8 @@ public class Neuron{
     /**
      * @return the delta_m
      */
-    public double getDelta_k() {
-        return delta_k;
+    public double getDeltaK() {
+        return deltaK;
     }
     /**
      * addInput で加算された入力値をもとに出力値を計算する.
@@ -89,9 +92,11 @@ public class Neuron{
      * @param debug 各ニューロンの入出力値を表示するとき true.
      * @return output 出力値
      */
-    public double output(boolean debug){
+    public double output(LearningData data,boolean debug){
         // 出力値を 0 クリア
-        output = 0;
+        double output = 0;
+        // データに対応した入力値を呼び出す.
+        double input = inputs.get(data).doubleValue();
         if(layer.getIndex() == 0){
             // 入力層の場合,入力値をそのまま出力する.
             output = input;
@@ -101,7 +106,7 @@ public class Neuron{
         }
         for(SynapticConnection postsynapticConnection:postsynapticConnections){
             // ニューロンから伸びているシナプス結合に出力を流す.
-            postsynapticConnection.output(output);
+            postsynapticConnection.output(output,data);
         }
         
         if(debug){
@@ -118,29 +123,32 @@ public class Neuron{
             System.out.println(indent+tab+"output "+output);
             /***********************/
         }
+        outputs.put(data, output);
         return output;
     }
 
-    public void calc_delta(double[] trainingOutputs){
+    public void calcDelta(double[] trainingOutputs,LearningData data){
         if(presynapticConnections.size() == 0){
             return;
         }
+        double input = inputs.get(data).doubleValue();
+        double output = outputs.get(data).doubleValue();
         double differentialValue = function.getDifferentialValue(input);
         if(postsynapticConnections.size() == 0){
             double outputDifference = trainingOutputs[index]-output;
-            delta_k = outputDifference * differentialValue;
+            deltaK = outputDifference * differentialValue;
         }else{
             double total = 0;
             for(SynapticConnection postsynapticConnection: postsynapticConnections){
                 Neuron postsynapticNeuron = postsynapticConnection.getPostsyanapticNeuron();
-                double delta_k1 = postsynapticNeuron.getDelta_k();
+                double delta_k1 = postsynapticNeuron.getDeltaK();
                 double weight = postsynapticConnection.getWeight();
-                total += delta_k1*weight; 
+                total += delta_k1*weight;
             }
-            delta_k = differentialValue*total;
+            deltaK = differentialValue*total;
         }
         for(SynapticConnection presynapticConnection:presynapticConnections){
-            presynapticConnection.calc_delta();
+            presynapticConnection.calc_delta(data);
         }
     }
 
@@ -178,18 +186,19 @@ public class Neuron{
     
     /**
      * 出力をする前に前回の入力値を 0 クリアーする.
+     * @param data
      */
-    public void resetInput(){
-        input = 0;
+    public void resetInput(LearningData data){
+        inputs.put(data, Double.valueOf(0.0));
     }
 
     /**
      * 与えられた入力値をニューロンの入力値に足す.
-     * 
+     * @param data
      * @param input
      */
-    public void addInput(double input){
-        this.input += input;
+    public void addInput(LearningData data,double input){
+        inputs.put(data, inputs.get(data).doubleValue()+input);
     }
 
     @Override

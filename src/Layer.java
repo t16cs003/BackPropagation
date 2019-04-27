@@ -114,20 +114,28 @@ public class Layer{
      * @param inputs 入力データ
      * @param debug 各ニューロンの入出力値を表示するとき true.
      */
-    public void output(double[] inputs,boolean debug){
-       if(index == 0){
+    public void output(LearningData data,boolean debug){
+        if(index == 0){
+            // 入力層のとき
             for(int i = 0;i < neurons.size()-1; i++){
-                neurons.get(i).addInput(inputs[i]);
+                // 各ニューロンに対応した入力値を加算する.
+                neurons.get(i).addInput(data,data.getInputs()[i]);
             }
         }
+        /* 
+         * 他の層のニューロンは前の層の output(data,debug) によって入力値を
+         * すでに加算されているので省く.
+         */
+
         for(int i = 0; i < neurons.size(); i++){
-            neurons.get(i).output(debug);
+            // 層の持つすべてのニューロンから出力する.
+            neurons.get(i).output(data,debug);
         }
     }
 
-    public void calc_delta(double[] trainingOutputs){
+    public void calcDelta(double[] trainingOutputs,LearningData data){
         for(Neuron neuron : neurons){
-            neuron.calc_delta(trainingOutputs);
+            neuron.calcDelta(trainingOutputs,data);
         }
     }
     
@@ -140,9 +148,9 @@ public class Layer{
     /**
      * 層の持つニューロンの入力値をすべて 0 クリアーする.
      */
-    public void resetInput(){
+    public void resetInput(LearningData data){
         for(Neuron neuron:neurons){
-            neuron.resetInput();
+            neuron.resetInput(data);
         }
     }
 
