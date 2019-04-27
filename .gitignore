@@ -1,1 +1,4 @@
 *.class
+*.txt
+.vscode/
+.DS_STORE

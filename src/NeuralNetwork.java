@@ -6,7 +6,8 @@ public class NeuralNetwork{
     /** 学習回数上限 */
     public final static int EPHOCS = 500000;
     /** 学習率 */
-    private static double ETA = 0.0001;
+    private static double ETA = 0.005;
+    private static double ALPHA = 0.9;
     /** NNの持つ層のリスト */
     private List<Layer> layers;
     /** 層数 */
@@ -68,6 +69,10 @@ public class NeuralNetwork{
         return ETA;
     }
 
+    public static double getALPHA() {
+		return ALPHA;
+	}
+
     /**
      * @param eta 学習率
      */
@@ -80,11 +85,12 @@ public class NeuralNetwork{
      * 入力データをもとに出力層の出力を計算する.
      * 入力データの次元は, dimensionOfInput と一致している必要がある.
      * 
-     * @param inputs 入力データ
+     * @param data 入力データ
      * @param debug 各ニューロンの入出力値を表示するとき true.
      * @return outputs 入力データの次元が間違っているときは null,正しいときは出力層の出力
      */
-    public double[] output(double[] inputs,boolean debug){
+    public double[] output(LearningData data,boolean debug){
+        double[] inputs = data.getInputs();
         if(inputs.length != dimensionOfInput){
             // 入力層のニューロン数と入力データの次元が一致しているか確認.
             System.out.println("入力データの次元が異なります.");
@@ -94,16 +100,11 @@ public class NeuralNetwork{
         for(Layer layer:layers){
             // 全ての層について,全ニューロンの入力値を 0 クリアーしておく.
             // これがないと前回の出力の時の入力値が加算されてしまう.
-            layer.resetInput();
+            layer.resetInput(data);
         }
         for(Layer layer:layers){
             // 各層のニューロンを入力層から出力させていく.
-            if(layer.equals(layers.get(0))){
-                // 入力層のみ入力データを流す.
-                layer.output(inputs,debug);
-            }else{
-                layer.output(null,debug);
-            }
+            layer.output(data, false);
         }
         
         // 出力層の出力を取り出す.
@@ -111,14 +112,14 @@ public class NeuralNetwork{
         Layer outputLayer = layers.get(layers.size()-1);
         List<Neuron> outputNeurons = outputLayer.getNeurons();
         for(int i = 0; i < outputs.length; i++){
-            outputs[i] = outputNeurons.get(i).getOutput();
+            outputs[i] = outputNeurons.get(i).getOutput(data);
         }
         return outputs;
     }
 
     public void fit(List<LearningData> trainingDatas,List<LearningData> verificationDatas,boolean verify){
         int epoch = 0;
-        double upperLimit = 0.05;
+        double upperLimit = 0.05*0.05;
         String indent = "   ";
         if(trainingDatas.size() == 0 || trainingDatas == null) {
             System.out.println("訓練データがありません.");
@@ -126,30 +127,38 @@ public class NeuralNetwork{
         if (verify && (verificationDatas.size() == 0 || verificationDatas == null)) {
             System.out.println("検証データがありません.");
         }
-        double previousEpochError = 0;
-        for (; epoch < EPHOCS; epoch++) {
+        for (; epoch < EPHOCS; epoch++) {        
+            double previousEpochError = 0;
+            // 学習回数上限まで学習する.
             for (LearningData data : trainingDatas) {
-                output(data.getInputs(), false);
+                // 訓練データすべてを出力する.
+                output(data, false);
                 for (int j = layers.size() - 1; j >= 1; j--) {
-                    layers.get(j).calc_delta(data.getTeacherOutputs());
+                    // 出力値に応じて,各データに対する重みの修正量を計算する.
+                    layers.get(j).calcDelta(data.getTeacherOutputs(),data);
                 }
             }
             for (int j = 1; j < layers.size(); j++) {
+                // 計算した修正量をもとに,重みを修正する.
                 layers.get(j).fit();
             }
+            // 1epoch 分の平均誤差
             double epochError = 0;
             for (LearningData data : trainingDatas) {
-                epochError += data.calcSquareError(output(data.getInputs(), false));
+                // 各データに対する誤差を加算する.
+                epochError += data.calcSquareError(output(data, false));
             }
+            // 平均誤差を求める.
             epochError /= trainingDatas.size();
+
             if(verify && ((epoch+1) % 10 == 0)){
                 System.out.println("epoch "+ (epoch+1) +" : ");
                 System.out.println(indent+"training precision : "+verify(trainingDatas,false));
                 System.out.println(indent+"verification precision : "+verify(verificationDatas,false));
-                System.out.println("mean error : "+epochError);
+                System.out.println(indent+"mean error : "+epochError);
             }
             if(epoch != 0){
-                if(previousEpochError-epochError < 0.000000001){
+                if((epochError-previousEpochError)*(epochError-previousEpochError) < upperLimit){
                     break;
                 }
             }
@@ -178,7 +187,7 @@ public class NeuralNetwork{
                 System.out.println(indent3+"inputs : "+Arrays.toString(learningData.getInputs()));
                 System.out.println(indent3+"teacherOutputs : "+Arrays.toString(learningData.getTeacherOutputs()));
             }
-            double[] outputs = output(learningData.getInputs(), false);
+            double[] outputs = output(learningData, false);
             if(debug){
                 System.out.println(indent3+"outputs : "+Arrays.toString(outputs));
             }
@@ -212,6 +221,7 @@ public class NeuralNetwork{
         precision = (double)numOfCorrect/verificationDatas.size();
         return precision;
     }
+
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();
@@ -222,5 +232,4 @@ public class NeuralNetwork{
         }
         return s.toString();
     }
-    
 }
