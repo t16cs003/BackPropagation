@@ -56,7 +56,9 @@ public class Neuron{
         inputs = new HashMap<>();
         outputs = new HashMap<>();
     }
-    
+    public Layer getLayer(){
+        return this.layer;
+    }
     /**
      * @return output 出力値
      */

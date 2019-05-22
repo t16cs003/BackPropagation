@@ -119,7 +119,7 @@ public class NeuralNetwork{
 
     public void fit(List<LearningData> trainingDatas,List<LearningData> verificationDatas,boolean verify){
         int epoch = 0;
-        double upperLimit = 0.05*0.05;
+        double upperLimit = 0.0000000005*0.0000000005;
         String indent = "   ";
         if(trainingDatas.size() == 0 || trainingDatas == null) {
             System.out.println("訓練データがありません.");
@@ -127,8 +127,8 @@ public class NeuralNetwork{
         if (verify && (verificationDatas.size() == 0 || verificationDatas == null)) {
             System.out.println("検証データがありません.");
         }
+        double previousEpochError = 0;
         for (; epoch < EPHOCS; epoch++) {        
-            double previousEpochError = 0;
             // 学習回数上限まで学習する.
             for (LearningData data : trainingDatas) {
                 // 訓練データすべてを出力する.

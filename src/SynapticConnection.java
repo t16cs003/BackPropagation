@@ -16,7 +16,7 @@ class SynapticConnection{
     private double weight;
     /** シナプス結合荷重の修正量 */
     private Map<LearningData, Double> deltaWeights;
-
+    
     private Double previousDeltaWeights;
 
     private double epochDeltaWeight;
@@ -27,7 +27,8 @@ class SynapticConnection{
     public SynapticConnection(Neuron presynapticNeuron,Neuron postsynapticNeuron){
         this.presynapticNeuron = presynapticNeuron;
         this.postsyanapticNeuron = postsynapticNeuron;
-        weight = (rand.nextInt(2)==0)?rand.nextDouble()*0.01:-rand.nextDouble()*0.01;
+        int numOfPresynapticNeurons = this.presynapticNeuron.getLayer().getNumOfNeurons();
+        weight = (rand.nextInt(2)==0)?rand.nextDouble()/numOfPresynapticNeurons:-rand.nextDouble()/numOfPresynapticNeurons;
         deltaWeights = new HashMap<>();
         previousDeltaWeights = null;
         epochDeltaWeight = 0;
