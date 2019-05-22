@@ -64,7 +64,7 @@ public class BackPropagation{
         List<LearningData> trainingDatas = datasList.get(0);
         List<LearningData> verificationDatas = datasList.get(1);
 
-        NeuralNetwork nn = new NeuralNetwork(Neuron.FunctionType.ReLu, 4, 10, 10, 3);
+        NeuralNetwork nn = new NeuralNetwork(Neuron.FunctionType.ReLu, 4, 50, 50, 50, 3);
         // System.out.println("NNの初期状態.");
         // System.out.println(nn);
         // System.out.println();
